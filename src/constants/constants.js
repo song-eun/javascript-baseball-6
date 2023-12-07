@@ -3,4 +3,10 @@ const MESSAGE = {
   INPUT_NUMBER: '숫자를 입력해주세요 : ',
 };
 
-export default MESSAGE;
+const GAME = {
+  NUMBERS_LENGTH: 3,
+  RANGE_START: 1,
+  RANGE_END: 9,
+};
+
+export { MESSAGE, GAME };
